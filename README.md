@@ -59,6 +59,8 @@ Print Approximate Probabilities:<br>
 ## Program :
 
 ```
+!pip install pgmpy
+!pip install networkx
 from pgmpy.models import BayesianNetwork
 from pgmpy.factors.discrete import TabularCPD
 from pgmpy.sampling import GibbsSampling
